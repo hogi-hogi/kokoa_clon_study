@@ -1,1 +1,19 @@
-@import "status-bar.css";
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/var.css";
+@import "components/main-header.css";
+
+/* screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+
+body {
+  color: #2e363e;
+  font-family: "Hind Siliguri", sans-serif;
+  margin: 0;
+  padding: 10px;
+}
