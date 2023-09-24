@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   justify-content: space-between;
-  margin: 30px 15px;
+  margin: 15px 25px;
 }
 .main-header__title {
   font-size: 30px;

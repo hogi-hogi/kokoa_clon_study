@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 50px;
+  background-color: rgba(221, 221, 221, 0.5);
+  border-top: 1px solid rgba(221, 221, 221, 1);
+  box-sizing: border-box;
+}
+.nav-list {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}

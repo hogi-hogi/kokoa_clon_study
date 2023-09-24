@@ -133,3 +133,7 @@ input:focus {
 button {
   border-style: none;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}

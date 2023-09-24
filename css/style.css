@@ -5,6 +5,7 @@
 @import "components/status-bar.css";
 @import "components/var.css";
 @import "components/main-header.css";
+@import "components/nav-bar.css";
 
 /* screen */
 @import "screen/login.css";
@@ -15,5 +16,7 @@ body {
   color: #2e363e;
   font-family: "Hind Siliguri", sans-serif;
   margin: 0;
-  padding: 10px;
+}
+main {
+  margin: 25px;
 }
