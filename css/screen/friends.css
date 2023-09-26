@@ -1,6 +1,6 @@
 #frneds-name-display {
   text-align: center;
-  background-color: rgba(221, 221, 221, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   display: block;
   padding: 12px;
   font-size: 16px;
@@ -9,43 +9,23 @@
   opacity: 0.3;
   margin: 0 5px;
 }
-.friends-channel {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 0;
-  margin: 15px 0;
+.friends-channel__header {
+  margin-top: 25px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.5);
-}
-.chat-list {
+  padding-top: 18px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
+  color: var(--light-grey-color);
 }
-.chat-list__culumn {
+.user-component__column:last-child {
+  color: var(--light-grey-color);
   display: flex;
-
   align-items: center;
 }
-.chat-list__img--1x img {
-  width: 70px;
-  height: 70px;
-  border-radius: 40%;
+.user-component__text-title__not-bold {
+  font-weight: 300;
 }
-.chat-list__img--sm img {
-  width: 50px;
-  height: 50px;
-  border-radius: 40%;
-}
-.chat-list__user {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-.chat-list__user-name {
-  font-size: 25px;
-  font-weight: 500;
-}
-.chat-list__user-name-ligt {
-  font-size: 20px;
-  font-weight: 400;
+.user-component__column:last-child i {
+  margin-left: 5px;
 }

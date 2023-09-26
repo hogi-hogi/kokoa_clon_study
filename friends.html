@@ -36,33 +36,41 @@
       <i class="fa-solid fa-chevron-right fa-xs"></i>
     </a>
     <main>
-      <div class="chat-list">
-        <div class="chat-list__culumn">
-          <div class="chat-list__img--1x">
-            <img src="img/apple-02.jpg" />
-          </div>
-          <div class="chat-list__user">
-            <sapn class="chat-list__user-name">Hogi</sapn>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/apple-02.jpg"
+            class="user-component__avatar user-component__avatar-xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__text-title">Hogi</h4>
           </div>
         </div>
+        <div class="user-component__column"></div>
       </div>
       <div class="friends-channel">
-        <span>Channel</span>
-        <i class="fa-solid fa-chevron-up"></i>
-      </div>
-      <div class="chat-list">
-        <div class="chat-list__culumn">
-          <div class="chat-list__img--sm">
-            <img src="img/apple-04.jpg" />
-          </div>
-          <div class="chat-list__user">
-            <span class="chat-list__user-name-ligt">Channel</span>
-          </div>
+        <div class="friends-channel__header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up"></i>
         </div>
-        <div class="chat-list__culumn info-number">
-          <span class="chat-list__message number"
-            >2<i class="fa-solid fa-chevron-right"></i
-          ></span>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/apple-04.jpg"
+              class="user-component__avatar user-component__avatar-sm"
+            />
+            <div class="user-component__text">
+              <h4
+                class="user-component__text-title user-component__text-title__not-bold"
+              >
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
         </div>
       </div>
     </main>
@@ -82,7 +90,8 @@
           <a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a>
         </li>
         <li class="nav-list__btn">
-          <a href="settings.html"><i class="fa-solid fa-ellipsis fa-lg"></i></a>
+          <a href="more.html"><i class="fa-solid fa-ellipsis fa-lg"></i></a>
+          <div class="nav-list__btn-reddot"></div>
         </li>
       </ul>
     </nav>

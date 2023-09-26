@@ -30,3 +30,15 @@
   bottom: 15px;
   left: 15px;
 }
+.nav-list__btn:last-child {
+  position: relative;
+}
+.nav-list__btn-reddot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  right: 0;
+}

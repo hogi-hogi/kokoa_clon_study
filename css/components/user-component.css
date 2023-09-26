@@ -1,0 +1,38 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.user-component__avatar-xl {
+  height: 80px;
+  width: 80px;
+  border-radius: 40%;
+}
+.user-component__avatar-sm {
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+}
+
+.user-component__text {
+  margin-left: 10px;
+}
+.user-component__text-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+.user-component__text-subtitle {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--light-grey-color);
+  margin-top: 5px;
+}
